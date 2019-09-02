@@ -144,3 +144,17 @@
 
 	推送本地分支到码云   （git push gitee master）
 
+二十二、忽略特殊文件
+	忽略某些文件时，需要编写.gitignore；
+
+	.gitignore文件本身要放到版本库里，并且可以对.gitignore做版本管理！
+
+二十三、配置别名
+	$ git config --global alias.st status		查看状态别名
+	$ git config --global alias.co checkout		切换分支别名
+	$ git config --global alias.ci commit		提交别名
+	$ git config --global alias.br branch		分支别名
+	$ git config --global alias.unstage 'reset HEAD'     撤销修改别名
+	$ git config --global alias.last 'log -1'	查看最后一条别名
+	git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"			查看log别名
+	
