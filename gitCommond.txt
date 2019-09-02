@@ -130,3 +130,17 @@
 
 	命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
 
+二十、使用GitHub
+	在GitHub上，可以任意Fork开源仓库；
+
+	自己拥有Fork后的仓库的读写权限；
+
+	可以推送pull request给官方仓库来贡献代码。
+
+二十一、使用码云
+	创建码云账号
+
+	本地关联码云仓库地址  （eg: git remote add gitee (url)）
+
+	推送本地分支到码云   （git push gitee master）
+
